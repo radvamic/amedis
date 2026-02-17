@@ -201,8 +201,10 @@
             </svg>
           </span>
           <div class="division-card-body">
-            <div class="division-card-icon">${div.icon}</div>
-            <h2>${div.name}</h2>
+            <div class="division-card-title">
+              <span class="division-card-icon">${div.icon}</span>
+              <h2>${div.name}</h2>
+            </div>
             <p>${div.description}</p>
             <div class="division-card-meta">
               <span><strong>${catCount}</strong> kategorií</span>
