@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="AMEDIS — Váš partner pro laboratorní a zdravotnickou techniku. Dodáváme analyzátory, ozařovací techniku, provádíme instalace a servis.">
+  <meta name="keywords"
+    content="AMEDIS, laboratorní technika, zdravotnická technika, radioterapie, hmotnostní spektrometrie, lineární urychlovače, chromatografie">
+  <title>AMEDIS — Laboratorní a zdravotnická technika</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230a1628'/%3E%3Ctext x='16' y='22' font-family='system-ui' font-size='18' font-weight='800' fill='%2300b4d8' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+</head>
+
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo">AMEDIS</a>
+      <div class="nav-links" id="navLinks">
+        <a href="products.html">Produkty</a>
+        <a href="#services">Servis</a>
+        <a href="#about">O společnosti</a>
+        <a href="#news">Aktuality</a>
+        <a href="#contact">Kontakty</a>
+      </div>
+      <div class="nav-contact">
+        <a href="tel:+420281918191" class="nav-phone">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
+          +420 281 918 191
+        </a>
+        <a href="mailto:sales@amedis.cz" class="btn btn-primary btn-sm">Napište nám</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero" id="hero">
+    <video class="hero-video" autoplay muted loop playsinline poster="">
+      <source src="hero-video.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Od roku 1993
+      </div>
+      <h1>Špičková <span class="gradient-text">laboratorní</span> a&nbsp;zdravotnická technika</h1>
+      <p class="hero-subtitle">Dodáváme a servisujeme nejmodernější analytické přístroje a radioterapeutické systémy pro
+        laboratoře a nemocnice po celé České republice.</p>
+      <div class="hero-cta">
+        <a href="products.html" class="btn btn-primary">Prohlédnout produkty
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+        <a href="#contact" class="btn btn-outline">Kontaktovat nás</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="number" data-count="30" data-suffix="+">0</span>
+          <span class="label">Let zkušeností</span>
+        </div>
+        <div class="hero-stat">
+          <span class="number" data-count="500" data-suffix="+">0</span>
+          <span class="label">Instalací</span>
+        </div>
+        <div class="hero-stat">
+          <span class="number" data-count="50" data-suffix="+">0</span>
+          <span class="label">Odborníků</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ==================== PRODUKTY ==================== -->
+  <section class="section-light section-padding" id="products">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge">Produkty</span>
+        <h2>Dvě klíčové oblasti naší činnosti</h2>
+        <p>Specializujeme se na dodávku špičkové laboratorní techniky a zdravotnického vybavení pro radioterapii.</p>
+      </div>
+
+      <div class="products-grid">
+        <!-- Lab Equipment Card -->
+        <a href="products.html#lab" class="product-card reveal reveal-delay-1">
+          <img src="img-lab.png" alt="Laboratorní technika" class="product-card-image">
+          <div class="product-card-overlay">
+            <h3>Laboratorní technika</h3>
+            <p>Komplexní vybavení laboratoří analyzátory a separačními systémy od předních světových výrobců.</p>
+            <div class="product-tags">
+              <span class="product-tag">SCIEX LC-MS/MS</span>
+              <span class="product-tag">SCION GC/MS</span>
+              <span class="product-tag">ICP-MS</span>
+              <span class="product-tag">ICP-OES</span>
+              <span class="product-tag">HPLC</span>
+              <span class="product-tag">Kapilární elektroforéza</span>
+              <span class="product-tag">Mikrovlnný rozklad</span>
+              <span class="product-tag">NMR spektrometrie</span>
+              <span class="product-tag">Syntéza peptidů</span>
+              <span class="product-tag">EDXRF</span>
+              <span class="product-tag">Pyrolýza</span>
+              <span class="product-tag">Farmaceutické testování</span>
+            </div>
+            <span class="product-card-link">
+              Zjistit více
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- Medical Equipment Card -->
+        <a href="products.html#medical" class="product-card reveal reveal-delay-2">
+          <img src="img-medical.png" alt="Zdravotnická technika" class="product-card-image">
+          <div class="product-card-overlay">
+            <h3>Zdravotnická technika</h3>
+            <p>Vybavení radioterapeutických pracovišť nejmodernější ozařovací technikou a příslušenstvím.</p>
+            <div class="product-tags">
+              <span class="product-tag">Lineární urychlovače</span>
+              <span class="product-tag">SRS / SRT</span>
+              <span class="product-tag">Protonová terapie</span>
+              <span class="product-tag">Brachyterapie</span>
+              <span class="product-tag">Plánovací systémy</span>
+              <span class="product-tag">Verifikační systémy</span>
+              <span class="product-tag">Dozimetrie</span>
+              <span class="product-tag">Lasery</span>
+              <span class="product-tag">Fixační pomůcky</span>
+              <span class="product-tag">Ozařovače krve</span>
+            </div>
+            <span class="product-card-link">
+              Zjistit více
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVIS ==================== -->
+  <section class="section-dark section-padding" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge">Servis</span>
+        <h2>Komplexní servisní podpora</h2>
+        <p>Provádíme instalace a servis námi dodaných zařízení včetně poskytování dalších služeb v obou oblastech.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon">🔧</div>
+          <h3>Instalace & servis</h3>
+          <p>Kompletní instalace a servis všech námi dodaných zařízení. Naši certifikovaní technici zajistí
+            bezproblémový provoz vaší techniky.</p>
+          <a href="#contact" class="btn btn-secondary btn-sm">Kontaktovat servis</a>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon">📋</div>
+          <h3>Servisní portál</h3>
+          <p>Pro nahlášení poruchy se přihlaste do našeho Servisního Informačního Systému. Sledujte stav vašich
+            požadavků online.</p>
+          <a href="https://intranet.amedis.cz/intranet/Login.aspx" target="_blank" rel="noopener"
+            class="btn btn-secondary btn-sm">
+            Přihlásit se
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-icon">🖥️</div>
+          <h3>Vzdálená podpora</h3>
+          <p>Stáhněte si program TeamViewer nakonfigurovaný pro spojení s naší technickou podporou pro rychlé řešení
+            problémů na dálku.</p>
+          <a href="https://intranet.amedis.cz/intranet/TV/TeamViewerQS15.exe" class="btn btn-secondary btn-sm">
+            TeamViewer stáhnout
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== O SPOLEČNOSTI ==================== -->
+  <section class="section-light section-padding" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content reveal">
+          <span class="badge">O společnosti</span>
+          <h2>Váš důvěryhodný partner v&nbsp;laboratorní a zdravotnické technice</h2>
+          <p>AMEDIS, spol. s r.o. byla založena v roce 1993 jako společnost zaměřená na obchodní aktivity v oblasti
+            laboratorní a zdravotnické techniky.</p>
+          <p>Hlavní náplní naší činnosti je vybavení laboratoří chemickými a fyzikálními analyzátory a vybavení
+            radioterapeutických pracovišť ozařovací technikou. Provádíme též instalace a servis námi dodaných zařízení
+            včetně poskytování dalších služeb v obou oblastech.</p>
+
+          <div class="cert-list">
+            <span class="cert-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                <polyline points="22 4 12 14.01 9 11.01" />
+              </svg>
+              ISO 9001:2016
+            </span>
+            <span class="cert-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                <polyline points="22 4 12 14.01 9 11.01" />
+              </svg>
+              ISO/IEC 27001:2014
+            </span>
+            <span class="cert-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                <polyline points="22 4 12 14.01 9 11.01" />
+              </svg>
+              Povolení SÚJB
+            </span>
+          </div>
+
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="about-feature-icon">🔬</div>
+              <div>
+                <h4>Laboratorní technika</h4>
+                <p>Analytické přístroje a separační systémy</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">🏥</div>
+              <div>
+                <h4>Zdravotnická technika</h4>
+                <p>Radioterapeutické systémy a ozařovače</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">🔧</div>
+              <div>
+                <h4>Servis & instalace</h4>
+                <p>Kompletní podpora po celé ČR</p>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">📋</div>
+              <div>
+                <h4>Certifikace</h4>
+                <p>ISO normy a povolení SÚJB</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-visual reveal reveal-delay-2">
+          <div class="about-image-wrapper">
+            <img src="img-lab.png" alt="Moderní laboratoř">
+          </div>
+          <div class="about-year-badge">
+            <span class="year">1993</span>
+            <span class="year-label">Rok založení</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== AKTUALITY ==================== -->
+  <section class="section-dark section-padding" id="news">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge">Aktuality</span>
+        <h2>Novinky z AMEDIS</h2>
+        <p>Sledujte nejnovější události, produkty a příležitosti z naší společnosti.</p>
+      </div>
+
+      <div class="news-grid">
+        <div class="news-card reveal reveal-delay-1">
+          <span class="news-card-tag">Kariéra</span>
+          <h3>Pozice servisní technik pro LC/MS a další separační techniky</h3>
+          <p>Naše společnost hledá kolegu na pozici servisního technika pro LC/MS a další separační techniky. Pokud máte
+            zájem o tuto pracovní pozici, napište na adresu korba@amedis.cz</p>
+        </div>
+
+        <div class="news-card reveal reveal-delay-2">
+          <span class="news-card-tag">Produkt</span>
+          <h3>ETHOS — Efektivnější, flexibilnější, osobnější &amp; inteligentní způsob, jak vyzrát nad rakovinou</h3>
+          <p>S terapií Ethos™ můžete denně přizpůsobovat léčebné plány a zároveň zcela změnit boj s rakovinou.
+            Efektivnější, flexibilnější, osobnější a inteligentní způsob, jak přelstít rakovinu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== KONTAKTY ==================== -->
+  <section class="section-light section-padding" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="badge">Kontakty</span>
+        <h2>Spojte se s námi</h2>
+        <p>Rádi vám pomůžeme s výběrem správné techniky a odpovíme na vaše dotazy.</p>
+      </div>
+
+      <div class="contact-wrapper">
+        <!-- Left — Info -->
+        <div class="contact-info reveal">
+          <div class="contact-details">
+            <div class="contact-detail">
+              <div class="contact-detail-icon">📍</div>
+              <div class="contact-detail-text">
+                <span class="label">Adresa</span>
+                <span class="value"><a href="https://goo.gl/ReHuW1" target="_blank" rel="noopener">Bobkova 786, Praha
+                    9</a></span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-detail-icon">📞</div>
+              <div class="contact-detail-text">
+                <span class="label">Telefon</span>
+                <span class="value"><a href="tel:+420281918191">+420 281 918 191</a></span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="contact-detail-icon">✉️</div>
+              <div class="contact-detail-text">
+                <span class="label">E-mail</span>
+                <span class="value"><a href="mailto:sales@amedis.cz">sales@amedis.cz</a></span>
+              </div>
+            </div>
+          </div>
+
+          <h3 style="font-size: 1.125rem; margin-bottom: 1rem; color: var(--clr-primary);">Vedení společnosti</h3>
+          <div class="management-grid">
+            <div class="management-card">
+              <h4>Ing. Hana Poslušná</h4>
+              <p class="role">Generální ředitelka, jednatelka</p>
+              <p class="mgmt-contact">+420 281 918 191<br><a
+                  href="mailto:hana.poslusna@amedis.cz">hana.poslusna@amedis.cz</a></p>
+            </div>
+            <div class="management-card">
+              <h4>Ing. Petr Krňák, CSc.</h4>
+              <p class="role">Jednatel, ředitel sekce laboratorní techniky</p>
+              <p class="mgmt-contact">+420 602 293 331<br><a href="mailto:petr.krnak@amedis.cz">petr.krnak@amedis.cz</a>
+              </p>
+            </div>
+            <div class="management-card">
+              <h4>Ing. Karel Polák</h4>
+              <p class="role">Ředitel sekce zdravotnické techniky</p>
+              <p class="mgmt-contact">+420 724 951 843<br><a
+                  href="mailto:karel.polak@amedis.cz">karel.polak@amedis.cz</a></p>
+            </div>
+            <div class="management-card">
+              <h4>Ing. Martin Steiner</h4>
+              <p class="role">Aplikační a fyzikální podpora</p>
+              <p class="mgmt-contact">+420 702 128 274<br><a
+                  href="mailto:martin.steiner@amedis.cz">martin.steiner@amedis.cz</a></p>
+            </div>
+          </div>
+
+          <div class="map-container" style="margin-top: 2rem;">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.2!2d14.5267!3d50.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470bec8b5a0a0a0a%3A0x0!2sBobkova+786%2C+Praha+9!5e0!3m2!1scs!2scz!4v1"
+              allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <!-- Right — Form -->
+        <div class="contact-form-wrapper reveal reveal-delay-2">
+          <h3>Zavoláme Vám zpět</h3>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Jméno a příjmení *</label>
+                <input type="text" id="name" name="name" placeholder="Jan Novák" required>
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" placeholder="jan@firma.cz" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Telefon</label>
+                <input type="tel" id="phone" name="phone" placeholder="+420 ...">
+              </div>
+              <div class="form-group">
+                <label for="department">Oblast zájmu</label>
+                <select id="department" name="department">
+                  <option value="">— Vyberte —</option>
+                  <option value="lab">Laboratorní technika</option>
+                  <option value="medical">Zdravotnická technika</option>
+                  <option value="servis">Servis</option>
+                  <option value="other">Jiné</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Zpráva *</label>
+              <textarea id="message" name="message" placeholder="Vaše zpráva..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+              Odeslat zprávu
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+            </button>
+            <p style="margin-top: 0.75rem; font-size: 0.75rem; color: var(--clr-gray-400); text-align: center;">
+              <a href="https://www.amedis.cz/public/downloads/GDPR-web.pdf" target="_blank" rel="noopener"
+                style="color: var(--clr-accent-dark);">Informace o ochraně osobních údajů →</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">AMEDIS</a>
+          <p>AMEDIS, spol. s r.o. — Váš partner pro laboratorní a zdravotnickou techniku od roku 1993. Provádíme
+            dodávky, instalace a servis špičkových analyzátorů a radioterapeutických systémů.</p>
+        </div>
+
+        <div>
+          <h4>Navigace</h4>
+          <div class="footer-links">
+            <a href="products.html">Produkty</a>
+            <a href="#services">Servis</a>
+            <a href="#about">O společnosti</a>
+            <a href="#news">Aktuality</a>
+            <a href="#contact">Kontakty</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Produkty</h4>
+          <div class="footer-links">
+            <a href="products.html#lab">Laboratorní technika</a>
+            <a href="products.html#medical">Zdravotnická technika</a>
+            <a href="https://intranet.amedis.cz/intranet/Login.aspx" target="_blank" rel="noopener">Servisní portál</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Kontakt</h4>
+          <div class="footer-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <a href="https://goo.gl/ReHuW1" target="_blank" rel="noopener">Bobkova 786, Praha 9</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+            <a href="tel:+420281918191">+420 281 918 191</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+            <a href="mailto:sales@amedis.cz">sales@amedis.cz</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 AMEDIS, spol. s r.o. Všechna práva vyhrazena.</p>
+        <a href="https://www.amedis.cz/public/downloads/GDPR-web.pdf" target="_blank" rel="noopener">Ochrana osobních
+          údajů</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
