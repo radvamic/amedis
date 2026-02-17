@@ -26,7 +26,16 @@ document.addEventListener('DOMContentLoaded', () => {
         hamburger.addEventListener('click', () => {
             hamburger.classList.toggle('active');
             navLinks.classList.toggle('open');
-            document.body.style.overflow = navLinks.classList.contains('open') ? 'hidden' : '';
+            document.body.classList.toggle('menu-open', navLinks.classList.contains('open'));
+        });
+
+        // Close menu when clicking on backdrop
+        navLinks.addEventListener('click', (e) => {
+            if (e.target === navLinks) {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('open');
+                document.body.classList.remove('menu-open');
+            }
         });
     }
 
@@ -44,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (navLinks.classList.contains('open')) {
                     hamburger.classList.remove('active');
                     navLinks.classList.remove('open');
-                    document.body.style.overflow = '';
+                    document.body.classList.remove('menu-open');
                 }
             }
         });
