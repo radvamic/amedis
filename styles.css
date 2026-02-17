@@ -480,6 +480,7 @@ h6 {
     gap: var(--spacing-2xl);
     margin-top: var(--spacing-2xl);
     padding-top: var(--spacing-xl);
+    padding-bottom: 5rem;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -503,7 +504,7 @@ h6 {
 
 .hero-scroll {
     position: absolute;
-    bottom: 2rem;
+    bottom: 1.5rem;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
@@ -1722,6 +1723,17 @@ h6 {
     .hero-stats {
         padding-top: var(--spacing-md);
         margin-top: var(--spacing-lg);
+    }
+}
+
+/* Short screens - hide scroll indicator earlier */
+@media (max-height: 750px) {
+    .hero-scroll {
+        display: none;
+    }
+
+    .hero-stats {
+        padding-bottom: var(--spacing-lg);
     }
 }
 
